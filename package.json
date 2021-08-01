@@ -1,12 +1,12 @@
 {
-  "name": "template-website",
+  "name": "toolshed",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seed/seed.js"
   },
   "keywords": [],
   "author": "Corey Parker",
@@ -20,7 +20,6 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
     "nodemailer": "^6.6.3",
-    "nodemon": "^2.0.12",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {

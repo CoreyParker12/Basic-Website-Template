@@ -23,10 +23,10 @@ let transporter = nodemailer.createTransport({
 
 // Step 2
 let mailOptions = {
-  from: 'anhcu714@gmail.com', // TODO: email sender
-  to: 'anhcu@hotmail.com', // TODO: email receiver
+  from: 'toolin.around21@gmail.com', // TODO: email sender
+  to: 'toolin.around21@gmail.com', // TODO: email receiver
   subject: 'Nodemailer - Test',
-  text: 'Wooohooo it works!!'
+  text: 'Wooohooo'
 };
 
 // Step 3
