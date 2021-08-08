@@ -1,8 +1,13 @@
 <!-- Loop over each object in the projects array -->
-<div class="project">
-  <div>
-    <h2>
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    {{!-- <h2>
         You are on the homepage of the template.
-    </h2>
+    </h2> --}}
+    {{#each categories as |category|}}
+    {{> category-details}}
+  {{/each}}
   </div>
 </div>
+
+

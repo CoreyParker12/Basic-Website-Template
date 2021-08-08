@@ -15,17 +15,12 @@
         <a href="/">Template Website</a>
       </h1>
       <nav>
-        {{#if logged_in}}
-          <ul><a href="/">Home</a></ul>
-          <ul><a href="/dashboard">Dashboard</a></ul>
-          <button class="no-button" id="logout">Logout</button>
-        {{else}}
-          <ul><a href="/">Home</a></ul>
-          <ul><a href="/login">Login</a></ul>
-        {{/if}}
+      <ul><a href="/">Home</a></ul>
+      <ul><a href="/login">Login</a></ul>
+      <ul><a href="/pageone">Page</a></ul>
       </nav>
     </header>
-    <main class="container container-fluid mt-5">
+      <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
